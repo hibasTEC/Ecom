@@ -1,0 +1,107 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    
+
+}
+.body{
+    
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    min-height: 100vh;
+    position:relative;
+}
+.Btn_add{
+    width: fit-content;
+    margin-bottom: 20px;
+    background-color: rgb(140, 255, 0);
+    padding: 5px 20px;
+    color:rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius:6px;
+    text-decoration: 0;
+}
+
+.Btn_add img{
+    margin-right: 5px;
+    height:20px;
+}
+/* gérer le tableau */
+table{
+    border-collapse: collapse;
+    color:rgb(38, 255, 0);
+    border:2px solid black;
+}
+th{
+    font-size: 16px;
+    border-bottom: 3px solid #46e407;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+img{height: 25px;
+width: 25px;}
+
+tr:nth-child(2n){
+    background-color: rgb(229, 236, 182);
+}
+tr:nth-child(2n) td{
+    border-bottom: 1px solid rgb(220, 233, 135) ;
+    border-top: 1px solid rgb(193, 204, 120);
+
+}
+.form{
+    background-color: rgb(140, 255, 0);
+    padding: 25px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.form form{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+.Btn-back{
+    color:rgb(0, 0, 0);
+    text-decoration: 0;
+    display: flex;
+    align-items:center;
+}
+.Btn-back img{
+    height: 16px;
+    margin-right: 5px;
+}
+/* .h2{
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+} */
+.msg-erreur{
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+}
+label{
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+input{
+    padding: 5px;
+    border:1px solid rgba(213, 186, 76, 0.465);
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border:1px solid rgb(111, 89, 11)
+}
+input[type="submit"]{
+margin-top: 25px;
+background-color: rgb(109, 187, 90);
+border:1px solid rgb(180, 212, 167);
+color:#fff;
+text-transform: uppercase;
+}
